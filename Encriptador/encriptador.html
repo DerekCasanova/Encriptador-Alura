@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset=" UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador de Codigo </title>  
+        <link rel="stylesheet " href="reset.css">
+        <link rel="stylesheet" href="encriptadorStyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1 ><img src="Vector.png" alt="Logo del Encriptador"> </h1>
+            </div>
+        </header>
+        <main>
+            <section class="espacio" >
+                <textarea cols="150" rows="25"  class="areaTexto" required placeholder="Texto a encriptar aqui"></textarea>                 
+                    <div>
+                        <h6 class="infoCaja"><img  class="ima2"  src="advertencia.png">Solo letras minisculas y sin acento</h6>
+                    </div>
+
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button> 
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>   
+
+            <section class="desaparece">
+                
+                <textarea cols="150" rows="25"  class="mensaje" required placeholder="Texto  encriptado aqui"></textarea>
+                <div>
+                    <button class="copiar" onclick="copiar()" >Copiar</button>   
+                </div>
+
+            </section>
+
+        </main>
+            <footer >
+                <h2 class="box">Esta pagina fue creada por Derek Casanova</h2>
+                <img  class="ima" src="pngimg.com - rick_morty_PNG4.png">
+            </footer>
+        <script src="scripta.js"></script>
+    </body>
+</html>
